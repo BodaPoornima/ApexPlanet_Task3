@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Web App with Coding Quiz</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Master Coding with Fun Quizzes & Dynamic Content</h1>
+  <section>
+    <h2>Responsive Design</h2>
+  </section>
+  <section>
+    <h2>Coding Quiz</h2>
+    <form id="quizForm">
+      <div id="quiz"></div>
+      <button type="button" class="btn-primary" onclick="submitQuiz()">Submit Quiz</button>
+    </form>
+    <p id="quizResult"></p>
+  </section>
+  <section>
+    <h2>Images</h2>
+    <img id="carousel" src="" alt="Carousel" width="400">
+    <br>
+    <button class="btn-secondary" onclick="prev()">⬅ Prev</button>
+    <button class="btn-secondary" onclick="next()">Next ➡</button>
+  </section>
+  <section>
+    <h2>Explore a joke by clicking button below!!</h2>
+    <button class="btn-accent" onclick="getJoke()">Get Joke 😂</button>
+    <p id="joke"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

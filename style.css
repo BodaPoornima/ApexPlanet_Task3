@@ -1,0 +1,131 @@
+body {
+  font-family: 'Fira Code', 'Source Code Pro', monospace, monospace;
+  background: url('https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #e0e0e0;
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+section {
+  margin-bottom: 40px;
+  padding: 20px 25px;
+  background: rgba(10, 10, 10, 0.75);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+button {
+  padding: 12px 20px;
+  margin: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.4);
+  border: none;
+  user-select: none;
+}
+button:hover, button:focus {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  outline: none;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  color: white;
+  font-family: 'Fira Code', monospace;
+}
+
+.btn-secondary {
+  background: linear-gradient(45deg, #36d1dc, #5b86e5);
+  color: white;
+  font-family: 'Fira Code', monospace;
+}
+
+.btn-accent {
+  background: linear-gradient(45deg, #11998e, #38ef7d);
+  color: white;
+  font-family: 'Fira Code', monospace;
+}
+#quiz div {
+  margin-bottom: 18px;
+  padding-left: 10px;
+  border-left: 3px solid #ff4b2b;
+}
+label {
+  margin-left: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type="radio"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 18px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+  img#carousel {
+    width: 100%;
+    height: auto;
+  }
+  button {
+    width: 90%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+  }
+}
+h1 {
+  color: #f6e59e; /* Gold */
+}
+
+section:nth-of-type(1) { 
+  color: #8bd1c8; 
+}
+
+section:nth-of-type(2) { 
+  color: rgb(202, 242, 201); 
+}
+section:nth-of-type(3) { 
+  color: #f16c9f; 
+}
+
+section:nth-of-type(4) { 
+  color: #ca91f3; 
+}
+.btn-primary {
+  background: linear-gradient(45deg, #ff6f59, #ff3b3f);
+  color: white;
+}
+
+.btn-secondary {
+  background: linear-gradient(45deg, #f59bcb, #f991d8);
+  color: white;
+}
+
+.btn-accent {
+  background: linear-gradient(45deg, hwb(298 59% 11%), hsl(306, 76%, 72%));
+  color: white;
+}
